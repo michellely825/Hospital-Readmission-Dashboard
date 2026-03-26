@@ -18,7 +18,7 @@ Try it yourself! [hospital-readmission-dashboard.vercel.app](https://hospital-re
 
 This dashboard is powered by the Hospital Readmissions REST API.
 
-- **GitHub Repo:** [github.com/michellely825/hospital-api](https://github.com/michellely825/hospital-api)
+- **Repo:** [github.com/michellely825/Hospital-Readmissions-Api](https://github.com/michellely825/Hospital-Readmissions-Api)
 - **Live API:** [hospital-readmissions-api-production.up.railway.app](https://hospital-readmissions-api-production.up.railway.app)
 
 ## Features
@@ -55,8 +55,8 @@ This dashboard is powered by the Hospital Readmissions REST API.
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/michellely825/hospital-dashboard.git
-cd hospital-dashboard
+git clone https://github.com/michellely825/Hospital-Readmission-Dashboard.git
+cd Hospital-Readmission-Dashboard
 ```
 
 2. **Install dependencies**
@@ -78,4 +78,4 @@ http://localhost:5173
 ```
 
 The dashboard connects to the live Railway API by default so no
-additional backend setup is required to run locally.
+additional backend setup is required to run locally!
