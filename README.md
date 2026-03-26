@@ -18,8 +18,8 @@ Try it yourself! [hospital-readmission-dashboard.vercel.app](https://hospital-re
 
 This dashboard is powered by the Hospital Readmissions REST API.
 
-- **Repo:** [github.com/michellely825/Hospital-Readmissions-Api](https://github.com/michellely825/Hospital-Readmissions-Api)
 - **Live API:** [hospital-readmissions-api-production.up.railway.app](https://hospital-readmissions-api-production.up.railway.app)
+- **GitHub Repo:** [github.com/michellely825/Hospital-Readmissions-Api](https://github.com/michellely825/Hospital-Readmissions-Api)
 
 ## Features
 
