@@ -1,16 +1,81 @@
-# React + Vite
+# Hospital Readmissions Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+An interactive data visualization dashboard built with React that surfaces
+ten years of hospital readmission insights for diabetic patients across
+130 US hospitals (1999-2008). The dashboard connects to a live REST API
+backend to display real-time patient statistics, readmission rates by
+diagnosis, and readmission trends by age group.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Deployment
 
-## React Compiler
+Try it yourself! [hospital-readmission-dashboard.vercel.app](https://hospital-readmission-dashboard.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Dashboard Preview](src/assets/demo.png)
 
-## Expanding the ESLint configuration
+## Backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This dashboard is powered by the Hospital Readmissions REST API.
+
+- **GitHub Repo:** [github.com/michellely825/hospital-api](https://github.com/michellely825/hospital-api)
+- **Live API:** [hospital-readmissions-api-production.up.railway.app](https://hospital-readmissions-api-production.up.railway.app)
+
+## Features
+
+- Real-time patient statistics including total patients, average hospital stay, and overall readmission rate
+- Interactive bar chart of readmission rates by primary diagnosis
+- Interactive bar chart of readmission rates by age group
+- Custom dark theme designed for clinical data readability
+- Fully responsive layout
+
+## Tech-Stack
+
+- **Frontend:** React, Vite
+- **Data Visualization:** Recharts
+- **HTTP Client:** Axios
+- **Deployment:** Vercel
+
+## Dataset
+
+- **Source:** [Kaggle - Hospital Readmissions](https://www.kaggle.com/datasets/dubradave/hospital-readmissions/data)
+- **Records:** 25,000 patient encounters
+- **Time Period:** 1999-2008
+- **Features:** age, time in hospital, diagnoses, medications, readmission status and more
+
+## How to Run Locally
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/michellely825/hospital-dashboard.git
+cd hospital-dashboard
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Open in browser**
+
+```
+http://localhost:5173
+```
+
+The dashboard connects to the live Railway API by default so no
+additional backend setup is required to run locally.
